@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.app-container {
+    height: 100vh;
+    background-color: rgb(248, 33, 69);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dot {
+    background-color: yellow;
+    height: 11px;
+    width: 11px;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+
+.heading-container {
+    border-bottom: solid 2px yellow;
+    width: 60%;
+    height: 50px;
+}
+
+.heading-dot-conatiner {
+    display: flex;
+    padding-left: 120px;
+}
+
+.heading {
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}
+
+.process-container {
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.circle-design {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(250, 160, 86, 0.479);
+    border-radius: 50px;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle-box {
+    display: flex;
+    margin-right: 30px;
+}
+
+.description {
+    width: 170px;
+    font-family: "Roboto";
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+.des-heading {
+    color: white;
+}
+
+.des-paragraph {
+    color: rgb(224, 223, 223);
+    /* color:lightgray; */
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.process-footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.footer-process-heading {
+    font-size: 150px;
+    font-family: "Roboto";
+    /* color:#fa5a5a; */
+    color: rgb(253, 64, 96);
+    text-shadow: 1px 1px 2px #a30b0b;
+    margin-right: 110px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+/*about*/
+
+.about-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 54, 150);
+    margin-top: 7px;
+    padding-top: 30px;
+    margin-bottom: 7px;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-right-container {
+    display: flex;
+}
+
+.left-container {
+    width: 45%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.about-heading {
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.about-dot {
+    background-color: red;
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+    margin-top: 56px;
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+
+.about-dot-container {
+    display: flex;
+}
+
+.about-heading-container {
+    border-bottom: solid 2px red;
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.left-heading {
+    width: 230px;
+    font-family: "Roboto";
+    color: #ffd001f3;
+}
+
+.left-description {
+    color: lightgrey;
+    width: 410px;
+    margin-top: 0px;
+    font-family: "Roboto";
+}
+
+.right-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-description {
+    color: lightgrey;
+    font-family: "Roboto";
+    width: 480px;
+}
+
+.span-item {
+    color: #ffd001f3;
+    font-family: "Roboto";
+}
+
+.left-story-conatiner {
+    display: flex;
+}
+
+.left-story-heading {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.left-heading-container {
+    border-bottom: solid 2px red;
+    width: 60%;
+    height: 50px;
+}
+
+.left-dot {
+    background-color: red;
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+    margin-top: 45px;
+    margin-right: -5px;
+}
+
+.footer-about-heading {
+    font-size: 180px;
+    font-family: "Roboto";
+    color: rgb(86, 86, 168);
+    text-shadow: 1px 1px 2px rgb(6, 6, 95);
+    margin-right: 110px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+.about-footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 70px;
+}
+
+/*our services */
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    padding: 30px;
+    background-color: hsl(295, 94%, 34%);
+    background: linear-gradient(to bottom, hsl(295, 94%, 34%) 50%, hsl(295, 76%, 25%) 50%);
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services-dot-container {
+    display: flex;
+    padding-left: 120px;
+}
+
+.services-dot {
+    background-color: rgb(253, 77, 106);
+    height: 11px;
+    width: 11px;
+    border-radius: 5px;
+    margin-top: 65px;
+    margin-right: -5px;
+}
+
+.services-heading-container {
+    border-bottom: solid 2px rgb(253, 77, 106);
+    width: 35%;
+    height: 70px;
+}
+
+.services-heading {
+    color: #ffd001f3;
+    font-family: Comic Sans MS;
+}
+
+.footer-items-container {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    /*  justify-content: center; */
+    padding-left: 130px;
+}
+
+.services-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 132px;
+    width: 165px;
+    margin-right: 15px;
+    border-radius: 28px;
+    padding: 10px;
+    box-shadow: 5px 2px 4px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-heading-container {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 3px red;
+    width: 70%;
+    margin-bottom: 5px;
+
+}
+
+.card-heading {
+    color: darkblue;
+    font-family: "Roboto";
+    margin-bottom: 5px;
+}
+
+.card-description {
+    font-size: 12px;
+    font-family: "Roboto";
+    text-align: center;
+    width: 145px;
+    font-weight: 600;
+    color: #040468;
+}
+
+.services-footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.footer-services-heading {
+    font-size: 120px;
+    font-family: "Roboto";
+    height: 150px;
+    text-shadow: 1px 1px 2px rgb(44, 2, 49);
+    margin-right: 110px;
+    margin-top: 0px;
+    color: rgba(164, 11, 184, 0.801);
+}
